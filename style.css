@@ -12,13 +12,8 @@ body{
     background-color: rgb(165, 220, 220);
 }
 
-#main-header{
-    background-color: white;
-}
-
-.container{
-    background-color: white;
-    
+.white-background{
+    background-color: white;   
 }
 
 .logo{
@@ -27,29 +22,52 @@ body{
 
 .logo-title{
     display: inline-block;
-    padding: 10px;
+    font-weight: bolder;
 }
 
-main{
+.main-content{
     margin: auto;
     width: 80%;
 }
 
+nav{
+    margin-top: 50px;
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
 .first-button{
     background-color: rgb(170, 169, 228);
+}
+
+.size{
     border-radius: 10%;
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.container{
+    margin-top: 5px;
 }
 
 .menu{
     background-color: transparent;
-    border: none;
-    font-weight: bolder;
-    font-size: x-large;
+}
+
+h1{
+    display: inline-block;
+}
+
+.tag{
+    display: inline-block;
+    text-align: center;
+    border-radius: 25%;
+    width: 80px;
+    height: 20px;
 }
 
 .blue{
-    border-radius: 25%;
     background-color: rgb(33, 155, 225);
-    display: inline-block;
-    text-align: center;
 }
