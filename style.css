@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li, menu{
+    list-style: none;
+}
+
+body{
+    background-color: rgb(165, 220, 220);
+}
+
+#main-header{
+    background-color: white;
+}
+
+.container{
+    background-color: white;
+    
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+.logo-title{
+    display: inline-block;
+    padding: 10px;
+}
+
+main{
+    margin: auto;
+    width: 80%;
+}
+
+.first-button{
+    background-color: rgb(170, 169, 228);
+    border-radius: 10%;
+}
+
+.menu{
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.blue{
+    border-radius: 25%;
+    background-color: rgb(33, 155, 225);
+    display: inline-block;
+    text-align: center;
+}
