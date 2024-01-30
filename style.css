@@ -34,7 +34,7 @@ nav{
     margin-top: 50px;
     height: 50px;
     padding-left: 20px;
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 .first-button{
@@ -42,10 +42,11 @@ nav{
 }
 
 .size{
-    border-radius: 10%;
-    font-size: 10px;
+    border: none;
+    border-radius: 15%;
+    font-size: 15px;
     width: 100px;
-    height: 30px;
+    height: 25px;
 }
 
 .container{
@@ -54,16 +55,27 @@ nav{
 
 .menu{
     background-color: transparent;
+    border: none;
 }
 
 h1{
     display: inline-block;
 }
 
+.inside{
+    display: inline-block;
+    color: rgb(12, 212, 12);
+    width: 20px;
+    line-height: 20px;
+    padding-left: 3px;
+    border: 1.5px solid rgb(12, 212, 12);
+    border-radius: 50%;
+}
+
 .tag{
     display: inline-block;
     text-align: center;
-    border-radius: 25%;
+    border-radius: 10%;
     width: 80px;
     height: 20px;
 }
