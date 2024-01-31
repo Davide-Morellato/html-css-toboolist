@@ -84,11 +84,11 @@ h2, .menu{
 
 .inside{
     display: inline-block;
-    width: 21px;
-    line-height: 21px;
-    padding-left: 2px;
+    width: 15px;
+    line-height: 15px;
     border-radius: 50%;
     text-align: center;
+    font-size: x-small;
 }
 
 .present{
